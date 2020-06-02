@@ -1,0 +1,7 @@
+/home/sas/media_src/x265/build/linux/CMakeFiles/clean-generated.dir
+/home/sas/media_src/x265/build/linux/CMakeFiles/cli.dir
+/home/sas/media_src/x265/build/linux/common/CMakeFiles/common.dir
+/home/sas/media_src/x265/build/linux/encoder/CMakeFiles/encoder.dir
+/home/sas/media_src/x265/build/linux/CMakeFiles/uninstall.dir
+/home/sas/media_src/x265/build/linux/CMakeFiles/x265-shared.dir
+/home/sas/media_src/x265/build/linux/CMakeFiles/x265-static.dir

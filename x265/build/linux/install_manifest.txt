@@ -1,0 +1,7 @@
+/opt/media/lib/libx265.a
+/opt/media/include/x265.h
+/opt/media/include/x265_config.h
+/opt/media/lib/libx265.so.192
+/opt/media/lib/libx265.so
+/opt/media/lib/pkgconfig/x265.pc
+/opt/media/bin/x265

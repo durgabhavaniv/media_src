@@ -1,0 +1,402 @@
+The system is: Linux - 3.10.0-957.21.3.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: -I/opt/media/include;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/sas/media_src/x265/build/linux/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -I/opt/media/include;
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/sas/media_src/x265/build/linux/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3961195544/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3961195544.dir/build.make CMakeFiles/cmTryCompileExec3961195544.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3961195544.dir/testCCompiler.c.o
+/usr/bin/cc   -I/opt/media/include      -o CMakeFiles/cmTryCompileExec3961195544.dir/testCCompiler.c.o   -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3961195544
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3961195544.dir/link.txt --verbose=1
+/usr/bin/cc  -I/opt/media/include      -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec3961195544.dir/testCCompiler.c.o  -o cmTryCompileExec3961195544 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3732625414/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3732625414.dir/build.make CMakeFiles/cmTryCompileExec3732625414.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -I/opt/media/include      -o CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3732625414
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3732625414.dir/link.txt --verbose=1
+/usr/bin/cc  -I/opt/media/include     -v CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3732625414 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/opt/media/include' '-v' '-o' 'cmTryCompileExec3732625414' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3732625414 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3732625414/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3732625414.dir/build.make CMakeFiles/cmTryCompileExec3732625414.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -I/opt/media/include      -o CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3732625414]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3732625414.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -I/opt/media/include     -v CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3732625414 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/opt/media/include' '-v' '-o' 'cmTryCompileExec3732625414' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3732625414 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3732625414] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec3732625414.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec552567149/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec552567149.dir/build.make CMakeFiles/cmTryCompileExec552567149.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec552567149.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -I/opt/media/include      -o CMakeFiles/cmTryCompileExec552567149.dir/testCXXCompiler.cxx.o -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec552567149
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec552567149.dir/link.txt --verbose=1
+/usr/bin/c++   -I/opt/media/include      -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec552567149.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec552567149 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3602576500/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3602576500.dir/build.make CMakeFiles/cmTryCompileExec3602576500.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -I/opt/media/include      -o CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3602576500
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3602576500.dir/link.txt --verbose=1
+/usr/bin/c++   -I/opt/media/include     -v CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3602576500 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/opt/media/include' '-v' '-o' 'cmTryCompileExec3602576500' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3602576500 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3602576500/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3602576500.dir/build.make CMakeFiles/cmTryCompileExec3602576500.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -I/opt/media/include      -o CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3602576500]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3602576500.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -I/opt/media/include     -v CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3602576500 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/opt/media/include' '-v' '-o' 'cmTryCompileExec3602576500' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3602576500 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3602576500] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTryCompileExec3602576500.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2378749070/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2378749070.dir/build.make CMakeFiles/cmTryCompileExec2378749070.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2378749070.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/opt/media/include      -o CMakeFiles/cmTryCompileExec2378749070.dir/CheckIncludeFiles.c.o   -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2378749070
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2378749070.dir/link.txt --verbose=1
+/usr/bin/cc  -I/opt/media/include      -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec2378749070.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2378749070 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CC_HAS_NO_STRICT_OVERFLOW succeded with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3959069489/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3959069489.dir/build.make CMakeFiles/cmTryCompileExec3959069489.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3959069489.dir/src.cxx.o
+/usr/bin/c++    -I/opt/media/include   -DCC_HAS_NO_STRICT_OVERFLOW   -Wno-strict-overflow -o CMakeFiles/cmTryCompileExec3959069489.dir/src.cxx.o -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3959069489
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3959069489.dir/link.txt --verbose=1
+/usr/bin/c++   -I/opt/media/include   -DCC_HAS_NO_STRICT_OVERFLOW   -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec3959069489.dir/src.cxx.o  -o cmTryCompileExec3959069489 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_NO_NARROWING succeded with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2600683773/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2600683773.dir/build.make CMakeFiles/cmTryCompileExec2600683773.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2600683773.dir/src.cxx.o
+/usr/bin/c++    -I/opt/media/include   -DCC_HAS_NO_NARROWING   -Wno-narrowing -o CMakeFiles/cmTryCompileExec2600683773.dir/src.cxx.o -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2600683773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2600683773.dir/link.txt --verbose=1
+/usr/bin/c++   -I/opt/media/include   -DCC_HAS_NO_NARROWING   -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec2600683773.dir/src.cxx.o  -o cmTryCompileExec2600683773 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_NO_ARRAY_BOUNDS succeded with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4026065129/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4026065129.dir/build.make CMakeFiles/cmTryCompileExec4026065129.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4026065129.dir/src.cxx.o
+/usr/bin/c++    -I/opt/media/include   -DCC_HAS_NO_ARRAY_BOUNDS   -Wno-array-bounds -o CMakeFiles/cmTryCompileExec4026065129.dir/src.cxx.o -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4026065129
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4026065129.dir/link.txt --verbose=1
+/usr/bin/c++   -I/opt/media/include   -DCC_HAS_NO_ARRAY_BOUNDS   -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec4026065129.dir/src.cxx.o  -o cmTryCompileExec4026065129 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_FAST_MATH succeded with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2700591346/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2700591346.dir/build.make CMakeFiles/cmTryCompileExec2700591346.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2700591346.dir/src.cxx.o
+/usr/bin/c++    -I/opt/media/include   -DCC_HAS_FAST_MATH   -ffast-math -o CMakeFiles/cmTryCompileExec2700591346.dir/src.cxx.o -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec2700591346
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2700591346.dir/link.txt --verbose=1
+/usr/bin/c++   -I/opt/media/include   -DCC_HAS_FAST_MATH   -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec2700591346.dir/src.cxx.o  -o cmTryCompileExec2700591346 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN succeded with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec244520011/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec244520011.dir/build.make CMakeFiles/cmTryCompileExec244520011.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec244520011.dir/src.cxx.o
+/usr/bin/c++    -I/opt/media/include   -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTryCompileExec244520011.dir/src.cxx.o -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec244520011
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec244520011.dir/link.txt --verbose=1
+/usr/bin/c++   -I/opt/media/include   -DCC_HAS_STACK_REALIGN   -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec244520011.dir/src.cxx.o  -o cmTryCompileExec244520011 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CC_HAS_FNO_EXCEPTIONS_FLAG succeded with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4271957093/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4271957093.dir/build.make CMakeFiles/cmTryCompileExec4271957093.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4271957093.dir/src.cxx.o
+/usr/bin/c++    -I/opt/media/include   -DCC_HAS_FNO_EXCEPTIONS_FLAG   -fno-exceptions -o CMakeFiles/cmTryCompileExec4271957093.dir/src.cxx.o -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec4271957093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4271957093.dir/link.txt --verbose=1
+/usr/bin/c++   -I/opt/media/include   -DCC_HAS_FNO_EXCEPTIONS_FLAG   -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec4271957093.dir/src.cxx.o  -o cmTryCompileExec4271957093 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2345660568/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2345660568.dir/build.make CMakeFiles/cmTryCompileExec2345660568.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2345660568.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -I/opt/media/include      -o CMakeFiles/cmTryCompileExec2345660568.dir/CheckSymbolExists.c.o   -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2345660568
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2345660568.dir/link.txt --verbose=1
+/usr/bin/cc  -I/opt/media/include      -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec2345660568.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2345660568 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+File /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1212312854/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1212312854.dir/build.make CMakeFiles/cmTryCompileExec1212312854.dir/build
+gmake[1]: Entering directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1212312854.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -I/opt/media/include      -o CMakeFiles/cmTryCompileExec1212312854.dir/CheckIncludeFiles.c.o   -c /home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1212312854
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1212312854.dir/link.txt --verbose=1
+/usr/bin/cc  -I/opt/media/include      -L/opt/media/lib -L/opt/media/lib64 CMakeFiles/cmTryCompileExec1212312854.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1212312854 -rdynamic 
+gmake[1]: Leaving directory `/home/sas/media_src/x265/build/linux/CMakeFiles/CMakeTmp'
+
+
