@@ -58,3 +58,17 @@ Failed to inject frame into filter network: Function not implemented
 Error while processing the decoded data for stream #0:0
 ``` 
 
+# vp8 (native) -> vp8 (vp8_vaapi)
+```
+ffmpeg -init_hw_device vaapi=intel:/dev/dri/renderD128 -hwaccel vaapi -hwaccel_output_format vaapi -hwaccel_device intel -i ./in.webm -filter_hw_device intel -vf 'format=vaapi,hwupload' -c:v vp8_vaapi -b:v 1M -maxrate 1M -c:a copy -y ./out.webm
+```
+
+# vp8 (vp8_qsv) -> h264 (h264_qsv)
+```
+ffmpeg -v verbose -hwaccel qsv -c:v vp8_qsv -i ./in.webm -c:v h264_qsv -b:v 1M -maxrate 1M  -y ./out.mp4
+```
+
+# vp8 (vp8_qsv) -> vp8 (vp8_vaapi)
+```
+ffmpeg
+```
