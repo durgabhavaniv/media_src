@@ -2,6 +2,7 @@
 
 # TEST RUN FFMPEG WITH QSV
 
+```
 export HOME=/home/sas
 export ROOT_INSTALL_DIR=/opt/media
 export SRC_DIR=$HOME/media_src
@@ -16,4 +17,6 @@ export CFLAGS="-I/opt/media/include $CFLAGS"
 export CXXFLAGS="-I/opt/media/include $CXXFLAGS"
 which ffmpeg
 
+
 ffmpeg -v verbose -hwaccel qsv -c:v h264_qsv -i ./video1_min.mp4 -c:v h264_qsv -b:v 1M -maxrate 1M -c:a copy -y trans_qsv_cbr.mp4
+```
