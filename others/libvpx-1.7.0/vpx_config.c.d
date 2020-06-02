@@ -1,0 +1,8 @@
+vpx_config.c.o vpx_config.c.d: vpx_config.c /usr/include/stdc-predef.h vpx/vpx_codec.h \
+ vpx/./vpx_image.h vpx/./vpx_integer.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/inttypes.h
