@@ -63,6 +63,11 @@ Error while processing the decoded data for stream #0:0
 ffmpeg -init_hw_device vaapi=intel:/dev/dri/renderD128 -hwaccel vaapi -hwaccel_output_format vaapi -hwaccel_device intel -i ./in.webm -filter_hw_device intel -vf 'format=vaapi,hwupload' -c:v vp8_vaapi -b:v 1M -maxrate 1M -c:a copy -y ./out.webm
 ```
 
+# vp8 (native) ->  h264 (h264_qsv)`
+```
+ffmpeg
+```
+
 # vp8 (vp8_qsv) -> h264 (h264_qsv)
 ```
 ffmpeg -v verbose -hwaccel qsv -c:v vp8_qsv -i ./in.webm -c:v h264_qsv -b:v 1M -maxrate 1M  -y ./out.mp4
