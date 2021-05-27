@@ -25,7 +25,7 @@ new export environment
 export HOME=/home/test
 export ROOT_INSTALL_DIR=/opt/media_new
 export SRC_DIR=$HOME/QSV_msdk
-export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$ROOT_INSTALL_DIR/lib/pkgconfig/:$ROOT_INSTALL_DIR/lib64/pkgconfig/:/usr/local/lib/pkgconfig
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:$ROOT_INSTALL_DIR/lib/pkgconfig/:$ROOT_INSTALL_DIR/lib64/pkgconfig/:/usr/local/lib/pkgconfig:/opt/media_new/lib/x86_64-linux-gnu/pkgconfig/:/opt/media_new/meson-private/
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ROOT_INSTALL_DIR/lib:$ROOT_INSTALL_DIR/lib64:/usr/local/lib/
 export LDFLAGS="-L$ROOT_INSTALL_DIR/lib -L$ROOT_INSTALL_DIR/lib64"
 export LIBVA_DRIVER_NAME=iHD
